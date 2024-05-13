@@ -1,0 +1,3 @@
+- world sign in Docs : https://docs.worldcoin.org/sign-in
+- world sign in API : https://docs.worldcoin.org/reference/sign-in
+- WorldCoin Simulator : https://simulator.worldcoin.org/id/0x18d844e5
