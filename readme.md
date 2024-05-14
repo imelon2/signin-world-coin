@@ -19,7 +19,8 @@ npm start
 > [WARN] World SignIn의 리다이렉트 URL은 `http://localhost:3000/api/auth/callback/worldcoin`로 설정되어 있습니다.
 
 ## Guide
-<img src="./img/1.png"  width="700" height="370">
+<!-- ![캡처](./img/1.png) -->
+<img src="./img/1.png" width="100" height="170"/>
 
 
 ## Reference
