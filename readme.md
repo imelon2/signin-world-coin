@@ -35,7 +35,7 @@ npm start
 
 ### (3) World Coin 0Auth page
 로그인에 성공하면, World Coin은 `http://localhost:3000/api/auth/callback/worldcoin`로 리다이렉트하며, `coin=`에 사용자의 id를 전달한다.<br/>
-`World Id 검증하기`를 클릭하면, [POST]http://localhost:3001/getToken를 호출하여, 사용자의 access_token을 발급한다.
+`World Id 검증하기`를 클릭하면, `[POST]http://localhost:3001/getToken`를 호출하여, 사용자의 access_token을 발급한다.
 > [INTO] API 호출 시, `coin=`를 같이 전달한다.
 
 <img src="./img/6.png"  width="400" height="600"/>
