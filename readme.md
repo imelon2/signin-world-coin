@@ -30,10 +30,10 @@ npm start
 
 > [INFO] World Coin 0Auth URL은 `src/page/home.tsx`에 정의되어 있습니다.
 
-<img src="./img/2.png"  width="400" height="600"/>
-<img src="./img/3.png"  width="400" height="600"/>
-<img src="./img/4.png"  width="400" height="600"/>
-<img src="./img/5.png"  width="400" height="600"/>
+<img src="./img/2.png"  width="200" height="300"/>
+<img src="./img/3.png"  width="200" height="300"/>
+<img src="./img/4.png"  width="200" height="300"/>
+<img src="./img/5.png"  width="200" height="300"/>
 
 
 ### (3) World Coin 0Auth page
