@@ -2,6 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
 import axios from "axios";
+import jwt from 'jsonwebtoken';
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -43,6 +44,10 @@ app.post("/getToken", (req, res) => {
     // Success
     .then((response) => {
       console.log(response.data);
+      
+      const decoded = jwt.decode(response.data.access_token);
+      console.log('decode JWT(access token):');
+      console.log(decoded);
 
       res.json(response.data)
     })
